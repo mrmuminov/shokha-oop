@@ -2,9 +2,9 @@
 
 class InstagramProfile 
 {
-  public $full_name;
+  public $fullName;
   public $username;
-  public $web_site = '';
+  public $webSite = '';
   public $bio = '';
   public $email;
   public $phone;
@@ -14,13 +14,13 @@ class InstagramProfile
 
 $me = new InstagramProfile();
 
-$me->full_name = "Bahriddin Mo'minov";
+$me->fullName = "Bahriddin Mo'minov";
 $me->username = "mominovbahriddin";
-$me->web_site = "https://bahriddin.uz/";
+$me->webSite = "https://bahriddin.uz/";
 $me->email = "darkshadeuz@gmail.com";
 
-echo "My name is " . $me->full_name . PHP_EOL;
-echo "My web site address " . $me->web_site . PHP_EOL;
+echo "My name is " . $me->fullName . PHP_EOL;
+echo "My web site address " . $me->webSite . PHP_EOL;
 
 
 /** Result:
